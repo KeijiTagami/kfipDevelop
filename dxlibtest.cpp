@@ -10,6 +10,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	{
 		return -1;    // エラーが起きたら直ちに終了
 	}
+	WaitKey();//何かキーが押されるまで待つ
 
 	DxLib_End();        // ＤＸライブラリ使用の終了処理
 
